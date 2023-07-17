@@ -1,0 +1,46 @@
+@-webkit-keyframes pop-up-hover {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes pop-up-hover {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.pop-up-hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.pop-up-hover
+.pop-up-hover:focus,
+.pop-up-hover:active {
+    -webkit-animation-name: pop-up-hover;
+    animation-name: pop-up-hover;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+#resume-button{
+    background-color: #db791a;
+    color: white;
+}
+
+#resume-button:hover{
+    background-color: #db791a;
+    color: white;
+}
