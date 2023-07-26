@@ -36,11 +36,11 @@ export default function Resume() {
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
-                    paddingRight: '100px',
+                    paddingRight: '150px',
                 }}
                 >
                 - HTML
-                <br></br>- css
+                <br></br>- CSS
                 <br></br>- JavaScript
                 <br></br>- jQuery
                 <br></br>- React
@@ -60,7 +60,7 @@ export default function Resume() {
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
-                    paddingRight: '80px',
+                    paddingRight: '75px',
                 }}
                 >
                     - HTML

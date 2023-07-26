@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import { TextField, dividerClasses } from "@material-ui/core";
-import { Button, MenuItem } from "@material-ui/core";
+import { TextField, dividerClasses } from "@mui/material";
+import { Button, MenuItem } from "@mui/material";
 import Stack from "@mui/material/Stack";
 
 export default function Contact() {
@@ -81,7 +81,7 @@ export default function Contact() {
         }}
         className="form"
       >
-        <stack spacing={2}>
+        <Stack spacing={2}>
           <menuItem>
             <TextField
               defaultValue={name}
@@ -149,7 +149,7 @@ export default function Contact() {
               Submit
             </button>
           </MenuItem>
-        </stack>
+        </Stack>
       </form>
     </>
   );

@@ -11,7 +11,7 @@
 }
 
 #nav-link.active{
-    color: #db791a;
+    color: greenyellow;
     display: flex;
     justify-content: end;
 }
@@ -19,6 +19,7 @@
 #nav-link{
     display: flex;
     justify-content: end;
+    color: orangered;
 }
 
 @media(max-width: 589px){
