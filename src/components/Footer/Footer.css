@@ -3,7 +3,7 @@
 }
 
 #icon-hover{
-    color: #db791a;
+    color: blue;
     cursor: pointer;
 }
 
@@ -27,6 +27,7 @@
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    color: blue;
 }
 
 .pop-on-hover,
@@ -40,4 +41,6 @@
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+    cursor: pointer;
+    color: blue;
 }

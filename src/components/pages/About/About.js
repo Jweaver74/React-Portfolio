@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import CardMedia from "@mui/material/CardMedia";
-import hero from "../../../images/Jason bw formal-circle.png"
+import hero from "../../../images/Profile pic.jpg"
 
 export default function About() {
   return (
@@ -12,7 +12,7 @@ export default function About() {
           class-name="color-img"
           style={{
             height: "auto",
-            width: "50%",
+            width: "30%",
             margin: "0 auto",
             paddingTop: "20px",
           }}

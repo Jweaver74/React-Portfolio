@@ -20,6 +20,7 @@
     display: flex;
     justify-content: end;
     color: orangered;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media(max-width: 589px){

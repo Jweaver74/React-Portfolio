@@ -3,7 +3,7 @@
 div#project {
     display: flex;
     height: 23vh;
-    background-image: url(../../../images/project\ 1.png);
+    background-image: url(../../../images/Jason\ bw\ formal-circle.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -14,6 +14,7 @@ div#project {
   
   #projTitle {
     display: hidden !important;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   #portfolio-button {

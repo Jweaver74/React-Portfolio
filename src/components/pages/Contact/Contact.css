@@ -41,5 +41,9 @@
 
 #contact-button:hover{
     background-color: #db791a;
-    color: white;
+    color: red;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
 }
