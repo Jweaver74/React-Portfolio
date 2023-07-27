@@ -1,9 +1,9 @@
 import React from "react";
-import './App.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import PortfolioContainer from './components/PortfolioContainer';
-import { useState } from 'react';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import PortfolioContainer from "./components/PortfolioContainer";
+import { useState } from "react";
 
 const App = () => {
     const [currentPage, setCurrentPage] = useState('About');

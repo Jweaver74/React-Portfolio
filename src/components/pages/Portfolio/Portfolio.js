@@ -2,9 +2,9 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import "./Portfolio.css";
 import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { projects } from "../../../projects";
@@ -32,7 +32,7 @@ export function Project({ project }) {
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={project.liveLink}
+            href={project.livelink}
             size="small"
           >
             Live URL
@@ -40,7 +40,7 @@ export function Project({ project }) {
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={project.githubLink}
+            href={project.github}
             size="small"
           >
             GitHub
@@ -71,3 +71,4 @@ export default function Work() {
     </div>
   );
 }
+

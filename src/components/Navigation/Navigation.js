@@ -1,10 +1,13 @@
-import React from 'react';
-import './Navigation.css';
+import React from "react";
+import "./Navigation.css";
+import box from "@mui/material/Box";
+import {button} from "@mui/material/Button";
+import useTab from "@mui/base/useTab";
 
 
-const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
+const pages = ["About", "Portfolio", "Contact", "Resume"];
 
-function Navigation({ currentPage, setCurrentPage }) {
+function Navigation({ currentPage, setCurrentPage, handleCloseNacNow }) {
     return (
         <ul
             className='nav nav-tabs'
@@ -12,10 +15,10 @@ function Navigation({ currentPage, setCurrentPage }) {
             >
                 <li className='nav-item'>
                     <a
-                    id='nav-link'
-                    href='#About'
-                    onClick={() => setCurrentPage('About')}
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                    id="nav-link"
+                    href="#About"
+                    onClick={() => setCurrentPage("About")}
+                    className={currentPage === "About" ? "nav-link active" : "nav-link"}
                     >
                         About
                     </a>

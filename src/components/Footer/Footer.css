@@ -30,7 +30,7 @@
     color: blue;
 }
 
-.pop-on-hover,
+.pop-on-hover:hover,
 .pop-on-hover:focus,
 .pop-on-hover:active{
     -webkit-animation-name: pop-on-hover;
