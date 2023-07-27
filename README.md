@@ -2,6 +2,7 @@
   ## Badges
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+  ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?logo=material-ui&logoColor=white)
  
 
   ## Table of Contents
@@ -60,12 +61,15 @@
 
   ## Contributing
   [Contributor Covenant](https://www.contributor-covenant.org/)
+  BCS Learning Assistant # 261648, # 267710, # 267720, and # 267934.
+  SMU instructor Tyler Calvert
   
 
 
   ## Challenge
+  My challenge for this project was getting MUI to work properly. With the help of
+  BCS learning assistant and the instructor Tyler, I was able to get it to work. I also had a challenge to get my portfolio deployed properly.
   
-
 
   ## GitHub
   jweaver74
