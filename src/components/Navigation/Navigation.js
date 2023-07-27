@@ -26,7 +26,7 @@ function Navigation({ currentPage, setCurrentPage }) {
                     onClick={() => setCurrentPage('Portfolio')}
                     className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                     >
-                        Portfolio
+                        Projects
                     </a>
                 </li>
                 <li className='nav-item'>

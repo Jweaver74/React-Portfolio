@@ -12,7 +12,7 @@ import { projects } from "../../../projects";
 
 
 // Function that renders the portfolio cards, grid, buttons & exports
-export function Project({ project }) {
+export function Project({ projects }) {
   return (
     <Grid item xs={4} style={{ display: "flex", justifyContent: "center" }}>
       <Card sx={{ maxWidth: 345 }} style={{ backgroundColor: "floralwhite" }}>
@@ -20,21 +20,21 @@ export function Project({ project }) {
           component="img"
           alt="displayed projects with associated links"
           height="140"
-          image={project.imageLink}
+          image={projects.imageLink}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {project.projectTitle}
+            {projects.projectTitle}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {project.description}
+            {projects.description}
           </Typography>
         </CardContent>
         <CardActions style={{ justifyContent: "center" }}>
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={project.liveLink}
+            href={projects.liveLink}
             size="small"
           >
             Live URL
@@ -42,7 +42,7 @@ export function Project({ project }) {
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={project.gitHub}
+            href={projects.gitHub}
             size="small"
           >
             GitHub
