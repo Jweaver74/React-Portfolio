@@ -9,10 +9,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { projects } from "../../../projects";
 
-
-
 // Function that renders the portfolio cards, grid, buttons & exports
-export function Project({ projects }) {
+export function Project({ project }) {
   return (
     <Grid item xs={4} style={{ display: "flex", justifyContent: "center" }}>
       <Card sx={{ maxWidth: 345 }} style={{ backgroundColor: "floralwhite" }}>
@@ -20,21 +18,21 @@ export function Project({ projects }) {
           component="img"
           alt="displayed projects with associated links"
           height="140"
-          image={projects.imageLink}
+          image={project.imageLink}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {projects.projectTitle}
+            {project.projectTitle}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {projects.description}
+            {project.description}
           </Typography>
         </CardContent>
         <CardActions style={{ justifyContent: "center" }}>
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={projects.liveLink}
+            href={project.liveLink}
             size="small"
           >
             Live URL
@@ -42,7 +40,7 @@ export function Project({ projects }) {
           <Button
             id="portfolio-button"
             className="pop-on-hover"
-            href={projects.gitHub}
+            href={project.githubLink}
             size="small"
           >
             GitHub

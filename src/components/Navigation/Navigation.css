@@ -5,11 +5,6 @@
     justify-content: space-around;
 }
 
-#nav-link:visted{
-    text-decoration: none;
-    color: #ebdfcc;
-}
-
 #nav-link.active{
     color: greenyellow;
     display: flex;

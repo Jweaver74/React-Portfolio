@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 
+
 const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
 
 function Navigation({ currentPage, setCurrentPage }) {
@@ -26,7 +27,7 @@ function Navigation({ currentPage, setCurrentPage }) {
                     onClick={() => setCurrentPage('Portfolio')}
                     className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                     >
-                        Projects
+                        Portfolio
                     </a>
                 </li>
                 <li className='nav-item'>
