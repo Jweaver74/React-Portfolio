@@ -3,6 +3,7 @@
     list-style: none ;
     width: 40vw;
     justify-content: space-around;
+    font-size: 1.5rem;
 }
 
 #nav-link.active{

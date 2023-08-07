@@ -37,6 +37,8 @@ export default function Resume() {
                     display: 'flex',
                     justifyContent: 'center',
                     paddingRight: '150px',
+                    fontSize: '25px',
+                
                 }}
                 >
                 - HTML
@@ -60,7 +62,8 @@ export default function Resume() {
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
-                    paddingRight: '75px',
+                    paddingRight: '25px',
+                    fontSize: '25px',
                 }}
                 >
                     - HTML

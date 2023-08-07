@@ -23,19 +23,17 @@ export default function About() {
 
       <div style={{ width: "70%", margin: "0 auto" }}>
         <h1 id="about-me-title">About Me</h1>
-        <p id="p-about">A born problem solver, coding comes naturally to me - yet I
+        <p id="p-about">Certified Full Stack Web Development from Southern Methodist University.</p>
+        <p id="p-about">A born problem solver, I
           enjoy a challenge and am continually learning. For the past decade,
-          I've focused on Tech Support for Dental Professionals. Now I'm
-          broadening my knowledge base to include full stack: HTML5, CSS3,
+          I've focused on Tech Support for Dental Professionals. I have
+          expanded my knowledge base to include Full Stack: HTML5, CSS3,
           JavaScript, jQuery, Express.js, React.js, Node.js, progressive web
           apps, agile methodology, computer science, database theory, MongoDB,
           MySQL, Git, and more.</p>
         <p id="p-about">With a keen attention to detail and strong work ethic, I look forward
           to increasing the value of your organization.</p>
-        <p id="p-about">Me</p>
-        <p id="p-about">Me</p>
-        <p id="p-about">Me</p>
-      </div>
+        </div>
     </>
   );
 }
