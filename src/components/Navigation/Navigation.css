@@ -9,12 +9,12 @@
 #nav-link.active{
     color: greenyellow;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 #nav-link{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: orangered;
     font-family: 'Courier New', Courier, monospace;
 }
