@@ -7,7 +7,7 @@
 }
 
 #nav-link.active{
-    color: greenyellow;
+    color: gold;
     display: flex;
     justify-content: flex-end;
 }
@@ -15,8 +15,8 @@
 #nav-link{
     display: flex;
     justify-content: flex-end;
-    color: orangered;
-    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    font-family: "montserrat", sans-serif;
 }
 
 @media(max-width: 589px){

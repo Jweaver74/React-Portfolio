@@ -6,7 +6,7 @@ import hero from "../../../images/Profile pic.jpg"
 export default function About() {
   return (
     <>
-      <div className="image-container">
+      <div className="image-container"style={{ paddingTop: "20px" }} >
         <CardMedia
           component="img"
           class-name="color-img"
@@ -14,7 +14,10 @@ export default function About() {
             height: "auto",
             width: "30%",
             margin: "0 auto",
-            paddingTop: "20px",
+            paddingTop: "0px",
+            border: "solid 5px black",
+            borderRadius: "10px",
+            boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)"
           }}
           image={hero}
           alt="Jason Weaver"

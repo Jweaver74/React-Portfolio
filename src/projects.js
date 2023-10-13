@@ -2,7 +2,7 @@ export const projects = [
   {
     projectTitle: "Homeward Bound",
     description:
-      "Homeward Bound is a full stack application that allows users to search for adoptable pets in their area. Users can search by zip code, animal type, and breed. Users can also save pets to their favorites list and view them later. This application uses the Petfinder API to retrieve pet data.",
+      "Homeward Bound is a full stack application that allows users to search for and post lost pets. Users can search for lost pets by location and by pet type. Users can also post lost pets and view them later.",
     imageLink:
       "https://raw.githubusercontent.com/Jweaver74/homeward-bound/f31e6f84be8fa51b9ca22b944c73e2a0fb799a7e/public/images/Homepage.png",
     livelink: "https://warm-fortress-51039.herokuapp.com/",
@@ -11,7 +11,7 @@ export const projects = [
   {
     projectTitle: "Dinner and a Movie",
     description:
-      "Dinner and a Movie is a full stack application that allows users to search for movies and places to eat. Users can search for movies by title and movies by genre. Users can also save movies and recipes to their favorites list and view them later.",
+      "Dinner and a Movie is a full stack application that allows users to search for movies and places to eat. Users can search for movies by title and movies by genre. Users can also search for restaurants by location and by type of food.",
     imageLink:
       "https://github.com/Jweaver74/Dinner-and-a-Movie/blob/main/assets/images/start%20screen.png?raw=true",
     livelink: "https://mvincent15.github.io/Dinner-and-a-Movie/",
