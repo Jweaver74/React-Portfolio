@@ -22,7 +22,7 @@ export const projects = [
     description:
       "This application allows users to create, save, and delete notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.",
     imageLink:
-      "https://github.com/Jweaver74/Taking-Notes/blob/main/public/assets/images/home%20screen.png?raw=true",
+      "https://raw.githubusercontent.com/Jweaver74/Taking-Notes/main/public/assets/images/home%20screen2.png",
     livelink: "https://glacial-gorge-53622.herokuapp.com/",
     github: "https://github.com/Jweaver74/Taking-Notes",
   },
