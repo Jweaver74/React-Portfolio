@@ -1,11 +1,6 @@
 import React from "react";
 import "./Navigation.css";
-import box from "@mui/material/Box";
-import {button} from "@mui/material/Button";
-import useTab from "@mui/base/useTab";
 
-
-const pages = ["About", "Portfolio", "Contact", "Resume"];
 
 function Navigation({ currentPage, setCurrentPage, handleCloseNacNow }) {
     return (
@@ -33,16 +28,7 @@ function Navigation({ currentPage, setCurrentPage, handleCloseNacNow }) {
                         Portfolio
                     </a>
                 </li>
-                <li className='nav-item'>
-                    <a
-                    id='nav-link'
-                    href='#Contact'
-                    onClick={() => setCurrentPage('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                    >
-                        Contact
-                    </a>
-                </li>
+                
                 <li className='nav-item'>
                     <a
                     id='nav-link'
