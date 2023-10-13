@@ -22,24 +22,24 @@ const Footer = () => {
                     id='icon'
                     className='pop-on-hover'
                     sx={{ fontSize: 50 }}
-                    onClick={(event) =>
-                        (window.location.href = 'https://www.linkedin.com/in/jasonweaver2/')
+                    onClick={() =>
+                        window.open('https://www.linkedin.com/in/jasonweaver2/', '_blank')
                     }
                     />
                     <GitHubIcon
                     id='icon'
                     className='pop-on-hover'
                     sx={{ fontSize: 50 }}
-                    onClick={(event) =>
-                        (window.location.href = 'https://github.com/Jweaver74')
+                    onClick={() =>
+                        window.open('https://github.com/Jweaver74', '_blank')
                     }
                     />
                     <EmailIcon
                     id='icon'
                     className='pop-on-hover'
                     sx={{ fontSize: 50 }}
-                    onClick={(event) =>
-                        (window.location.href = 'mailto:jamaweaver@yahoo.com')
+                    onClick={() =>
+                        window.open('mailto:jamaweaver@yahoo.com', '_blank')
                     }
                     />
                 </Grid>
