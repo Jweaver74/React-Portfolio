@@ -34,6 +34,7 @@ export function Project({ project }) {
             className="pop-on-hover"
             href={project.livelink}
             size="small"
+            target="_blank"
           >
             Live URL
           </Button>
@@ -42,6 +43,7 @@ export function Project({ project }) {
             className="pop-on-hover"
             href={project.github}
             size="small"
+            target="_blank"
           >
             GitHub
           </Button>

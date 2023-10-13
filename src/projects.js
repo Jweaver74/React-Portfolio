@@ -31,7 +31,7 @@ export const projects = [
     description:
       "This application is a timed coding quiz with multiple-choice questions. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code.",
     imageLink:
-      "https://raw.githubusercontent.com/Jweaver74/Classmate-Code-Quiz/main/assets/images/Quiz%20frist%20page.png",
+      "https://raw.githubusercontent.com/Jweaver74/Classmate-Code-Quiz/main/assets/images/home.png",
     livelink: "https://jweaver74.github.io/Classmate-Code-Quiz/",
     github: "https://github.com/Jweaver74/Classmate-Code-Quiz",
   },
